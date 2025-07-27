@@ -8,7 +8,9 @@ export default function ProfileCard() {
     >
       {/* Text Section */}
       <div className="md:w-1/2 text-center md:text-left">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi! I'm Carlos.</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi! I'm <span className="text-indigo-400 font-semibold">
+          Carlos.
+        </span></h1>
         <p className="text-lg leading-relaxed">
           I'm a <span className="text-indigo-400 font-semibold"> Backend Developer </span> 
           with experience in designing scalable microservices, implementing CI/CD workflows, 
@@ -23,7 +25,7 @@ export default function ProfileCard() {
         <img 
           src="/carlos.webp" 
           alt="Profile" 
-          className="w-[200px] md:w-[250px] lg:w-[500px] rounded-full object-contain"
+          className="w-[200px] md:w-[250px] lg:w-[500px] rounded-full object-contain m-3"
         />
       </div>
     </div>
