@@ -25,47 +25,48 @@ function App() {
         {/* Tech Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-24 items-start justify-items-center py-24">
           <TechCard
-            icon={FaReact}
-            label="React"
-            description="Experienced building dynamic, component-based UIs with React. Familiar with hooks, 
-            state management, and integrating with APIs."
-            data-aos="fade-up"
-          />
-          <TechCard
-            icon={FaNodeJs}
-            label="Node.js"
-            description="Built fast, scalable server-side applications using Node.js, 
-            especially implementing webhook integrations and enabling real-time data flow via WebSockets."
-            data-aos="fade-up"
-          />
-          <TechCard
-            icon={FaJava}
-            label="Java + Spring Boot"
-            description="Crafted high-performance APIs using Spring Boot, with both relational 
-            and non-relational databases. Well-versed in integrating API Gateways, enforcing authentication via Spring Security, and leveraging JPA for data persistence."
-            data-aos="fade-up"
-          />
-          <TechCard
-            icon={FaPython}
-            label="Python + FastAPI & ML/AI"
-            description="Designed elegant, data-driven solutions using Python, blending FastAPI for 
-            lightweight backend APIs with robust machine learning capabilities. Experienced with libraries like Scikit-learn and Hugging Face Transformers."
-            data-aos="fade-up"
-          />
-          <TechCard
-            icon={FaAws}
-            label="AWS"
-            description="Architects and deploys cloud-first solutions using a suite of AWS services. 
-            Proficient with Lambda for serverless computing, S3 for scalable storage, ECS for container orchestration, and skilled in integrating FTP servers."
-            data-aos="fade-up"
-          />
-          <TechCard
-            icon={FaDocker}
-            label="Docker & Kubernetes"
-            description="Containerized diverse applications to streamline development and deployment 
-            across environments. Experienced in building efficient Docker images, orchestrating multi-container setups, and deploying microservices."
-            data-aos="fade-up"
-          />
+          icon={FaReact}
+          label="React"
+          description="Experiencia en la creación de interfaces dinámicas basadas en componentes con React. Familiarizado con hooks, 
+          gestión de estado e integración con APIs."
+          data-aos="fade-up"
+        />
+        <TechCard
+          icon={FaNodeJs}
+          label="Node.js"
+          description="Desarrolló aplicaciones del lado del servidor rápidas y escalables usando Node.js, 
+          implementando especialmente integraciones de webhooks y habilitando flujo de datos en tiempo real mediante WebSockets."
+          data-aos="fade-up"
+        />
+        <TechCard
+          icon={FaJava}
+          label="Java + Spring Boot"
+          description="Desarrolló APIs de alto rendimiento utilizando Spring Boot, con bases de datos relacionales 
+          y no relacionales. Con experiencia en la integración de API Gateways, aplicación de autenticación mediante Spring Security, y uso de JPA para persistencia de datos."
+          data-aos="fade-up"
+        />
+        <TechCard
+          icon={FaPython}
+          label="Python + FastAPI & ML/IA"
+          description="Diseñó soluciones elegantes basadas en datos usando Python, combinando FastAPI para 
+          APIs backend ligeras con sólidas capacidades de aprendizaje automático. Con experiencia en bibliotecas como Scikit-learn y Hugging Face Transformers."
+          data-aos="fade-up"
+        />
+        <TechCard
+          icon={FaAws}
+          label="AWS"
+          description="Arquitecta y despliega soluciones cloud-first utilizando una suite de servicios de AWS. 
+          Competente en Lambda para computación sin servidor, S3 para almacenamiento escalable, ECS para orquestación de contenedores, y con habilidades en integración de servidores FTP."
+          data-aos="fade-up"
+        />
+        <TechCard
+          icon={FaDocker}
+          label="Docker & Kubernetes"
+          description="Contenerizó diversas aplicaciones para optimizar el desarrollo y despliegue 
+          en distintos entornos. Con experiencia en construir imágenes Docker eficientes, orquestar configuraciones multi-contenedor y desplegar microservicios."
+          data-aos="fade-up"
+        />
+
         </div>
       </div>
       <Footer />

@@ -8,16 +8,15 @@ export default function ProfileCard() {
     >
       {/* Text Section */}
       <div className="md:w-1/2 text-center md:text-left">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi! I'm <span className="text-indigo-400 font-semibold">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">¡Hola! Soy <span className="text-indigo-400 font-semibold">
           Carlos.
         </span></h1>
         <p className="text-lg leading-relaxed">
-          I'm a <span className="text-indigo-400 font-semibold"> Backend Developer </span> 
-          with experience in designing scalable microservices, implementing CI/CD workflows, 
-          and deploying containerized applications. I’ve worked extensively with relational and non-relational databases, 
-          contributed to ML/AI-driven projects, and developed reliable systems backed by comprehensive testing practices.
+          Soy <span className="text-indigo-400 font-semibold"> Desarrollador Backend </span> 
+          con experiencia en el diseño de microservicios escalables, implementación de flujos de trabajo CI/CD, 
+          y despliegue de aplicaciones contenedorizadas. He trabajado extensamente con bases de datos relacionales y no relacionales, 
+          contribuido a proyectos impulsados por ML/IA, y desarrollado sistemas confiables respaldados por prácticas de pruebas integrales.
         </p>
-
       </div>
 
       {/* Image Section */}

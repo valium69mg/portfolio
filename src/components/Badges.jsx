@@ -9,25 +9,25 @@ export default function Badges(rest) {
         <FaGraduationCap className="text-4xl mb-2" />
         <h3 className="text-lg md:text-xl font-semibold">Education</h3>
         <p className="text-sm text-indigo-700 mt-1">
-          Mechatronics Engineer at ITESM, 2021
+          Ingeniero en Mecatronica ITESM, 2021
         </p>
       </div>
 
       {/* Cloud Certifications */}
       <div className="flex flex-col items-center text-indigo-800 text-center max-w-[240px]">
         <FaCloud className="text-4xl mb-2" />
-        <h3 className="text-lg md:text-xl font-semibold">Cloud Certifications</h3>
+        <h3 className="text-lg md:text-xl font-semibold">Certificationes Cloud</h3>
         <p className="text-sm text-indigo-700 mt-1">
-          1 AWS & DevOps Credentials
+          1 Certificacion(es) AWS & DevOps 
         </p>
       </div>
 
       {/* Completed Projects */}
       <div className="flex flex-col items-center text-indigo-800 text-center max-w-[240px]">
         <FaCheckCircle className="text-4xl mb-2" />
-        <h3 className="text-lg md:text-xl font-semibold">Completed Projects</h3>
+        <h3 className="text-lg md:text-xl font-semibold">Proyectos completados</h3>
         <p className="text-sm text-indigo-700 mt-1">
-          +10 full-stack builds & client apps
+          +10 proyectos full-stack
         </p>
       </div>
     </div>
