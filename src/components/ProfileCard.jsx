@@ -15,12 +15,7 @@ export default function ProfileCard() {
           and deploying containerized applications. I’ve worked extensively with relational and non-relational databases, 
           contributed to ML/AI-driven projects, and developed reliable systems backed by comprehensive testing practices.
         </p>
-        <button 
-          className="bg-indigo-800 hover:bg-indigo-700 transition-colors duration-300 
-          rounded-xl w-[60%] md:w-[40%] lg:w-[20%] h-12 mt-6 mx-auto md:mx-0"
-        >
-          Download CV
-        </button>
+
       </div>
 
       {/* Image Section */}
