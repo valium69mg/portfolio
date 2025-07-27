@@ -10,6 +10,7 @@ import 'aos/dist/aos.css'
 import AOS from 'aos'
 import Badges from './components/Badges'
 import Footer from './components/Footer'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -69,6 +70,7 @@ function App() {
 
         </div>
       </div>
+      <Projects/>
       <Footer />
     </div>
   )
