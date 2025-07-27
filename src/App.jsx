@@ -21,7 +21,7 @@ function App() {
     <div className="bg-gradient-to-r from-black to-indigo-800 min-h-screen w-full flex flex-col items-center justify-center">
       <ProfileCard />
       <div className="bg-gray-100 min-h-screen w-full rounded-[3rem] py-24 px-4 sm:px-8 md:px-16">
-        <Badges />
+        <Badges data-aos="fade-up"/>
         {/* Tech Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-24 items-start justify-items-center py-24">
           <TechCard

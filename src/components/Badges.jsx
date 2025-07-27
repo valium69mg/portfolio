@@ -1,9 +1,9 @@
 import React from "react";
 import { FaGraduationCap, FaCloud, FaCheckCircle } from "react-icons/fa";
 
-export default function Badges() {
+export default function Badges(rest) {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 lg:gap-32 px-4 py-8">
+    <div  {...rest} className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 lg:gap-32 px-4 py-8">
       {/* Education */}
       <div className="flex flex-col items-center text-indigo-800 text-center max-w-[240px]">
         <FaGraduationCap className="text-4xl mb-2" />
